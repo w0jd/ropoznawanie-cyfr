@@ -55,7 +55,10 @@ for i in range(ile):
             plik.write(str(y_train[i]))
             plik.write('"')
 
+        if let == ",":
+            let = ".0,"
         plik.write(let)
+
     # plik.write("\n")
 
 for i in range(ile2):
